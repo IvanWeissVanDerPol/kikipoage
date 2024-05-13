@@ -1,4 +1,4 @@
-import { bio, languages, certifications, education, experience, footer, skills, testimonials  } from "./data.js";
+import { bio, languages, education, experience, footer, skills, testimonials  } from "./data.js";
 import { URLs } from './user-data/urls.js';
 
 function mapBasicResponse(response) {
