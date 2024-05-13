@@ -1,5 +1,5 @@
 export const bio = [
-    "Kyrian Weiss Vnderpol, a proactive and adaptable Electronics Technician, brings creative solutions to industrial challenges.",
+    "Kyrian Weiss van der pol, a proactive and adaptable Electronics Technician, brings creative solutions to industrial challenges.",
     "Experienced in the practical operations of industrial machinery in food production and the development of innovative systems for beekeeping.",
     "Skills in adaptability, problem-solving, and proactivity.",
     "Current study towards an Electronics Technician degree at the Paraguayan Institute of Telecommunications, complemented by diverse international experiences.",
@@ -10,26 +10,26 @@ export const languages = [
     {
         title: "Native Language",
         skillName: "Spanish",
-        color: "#FFD700",
-        percentage: "100%",
+        color: "1",
+        percentage: "100",
     },
     {
         title: "Second Language",
         skillName: "English",
-        color: "#C0C0C0",
-        percentage: "75%",
+        color: "2",
+        percentage: "75",
     },
     {
         title: "Third Language",
         skillName: "French",
-        color: "#CD7F32",
-        percentage: "60%",
+        color: "3",
+        percentage: "60",
     },
     {
         title: "Fourth Language",
         skillName: "Dutch",
-        color: "#6A5ACD",
-        percentage: "50%",
+        color: "4",
+        percentage: "78",
     }
 ];
 
@@ -96,6 +96,30 @@ export const education = [
     }
 ];
 
+export const certifications = {
+
+    Test_Automation_University_TAU: [
+
+        {
+            certificationName: "Java Programming",
+            image: "images/Certifications/Mentormate/Test_Automation_University/TAU_JavaProgramming_Certificate.jpg",
+            preview: "http://127.0.0.1:5500/images/Certifications/Mentormate/Test_Automation_University/TAU_JavaProgramming_Certificate.jpg"
+        },
+    ]
+};
+
+export const testimonials = {
+    reviewer: "Anonymous Colleagues",
+    period: "Six-Month Review",
+    company: "MentorMate",
+    feedback: [
+        {
+            title: "Structured and Clear Communication",
+            detail: "kyrian expresses ideas and presents concepts in a structured way. He is incredibly articulate, making it easy for team members to understand complex information."
+        },
+    ]
+};
+
 export const footer = [
     {
         label: "Contact Information",
@@ -105,5 +129,23 @@ export const footer = [
                 link: "mailto:Kyrian.weiss@gmail.com",
             }
         ],
+    },
+    {
+        label: "Social Profiles",
+        data: [
+            {
+                text: "Linkedin",
+                link: "https://www.linkedin.com/in/kyrianWeissVanDerPol/",
+            },
+            {
+                text: "whatsapp",
+                link: "https://wa.me/595985724135",
+            },
+            {
+                text: "Instagram",
+                link: "https://www.instagram.com/kyrian_weiss_van_der_pol/",
+            },
+        ],
     }
+    
 ];

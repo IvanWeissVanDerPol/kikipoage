@@ -1,4 +1,6 @@
 import { bio, languages, education, experience, footer, skills } from "./data.js";
+import { certifications } from './data.js';
+import { testimonials } from './data.js';
 import { URLs } from './user-data/urls.js';
 
 function mapBasicResponse(response) {
@@ -368,8 +370,8 @@ populateContainer('languages', languages, createLanguageSkillElement);
 Object.keys(skills).forEach(category => {
     populateContainer(category, skills[category], createSkillItem);
 });
-//   // Example of populating Test Automation University certifications
-//   populateContainer('TAU', certifications.Test_Automation_University_TAU, createCertificationItem);
+  // Example of populating Test Automation University certifications
+  populateContainer('TAU', certifications.Test_Automation_University_TAU, createCertificationItem);
 
 //   // Similarly for LinkedIn Learning
 //   populateContainer('LinkedInLearning', certifications.LinkedInLearning, createCertificationItem);
@@ -383,8 +385,7 @@ Object.keys(skills).forEach(category => {
 populateContainer('experience', experience, createExperienceItem);
 populateContainer('education', education, createEducationItem);
 
-// populateContainer('testimonialItems', testimonials.feedback, createTestimonialElement);
+populateContainer('testimonialItems', testimonials.feedback, createTestimonialElement);
 
 populateContainer('footer', footer, createFooterItem);
 
-// populateLinks(footer, "footer");
