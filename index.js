@@ -1,4 +1,4 @@
-import { bio, languages, education, experience, footer, skills, testimonials  } from "./data.js";
+import { bio, languages, education, experience, footer, skills } from "./data.js";
 import { URLs } from './user-data/urls.js';
 
 function mapBasicResponse(response) {
@@ -383,7 +383,7 @@ Object.keys(skills).forEach(category => {
 populateContainer('experience', experience, createExperienceItem);
 populateContainer('education', education, createEducationItem);
 
-populateContainer('testimonialItems', testimonials.feedback, createTestimonialElement);
+// populateContainer('testimonialItems', testimonials.feedback, createTestimonialElement);
 
 populateContainer('footer', footer, createFooterItem);
 
