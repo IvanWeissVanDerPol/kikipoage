@@ -16,7 +16,7 @@ function mapBasicResponse(response) {
     // Or you can use the image, email, and phone in other parts of your code
     // ...
 }
-const { professionalCertifications, technicalCertifications, educationalCertifications, LinkedInLearning, Test_Automation_University_TAU } = certifications;
+// const { professionalCertifications, technicalCertifications, educationalCertifications, LinkedInLearning, Test_Automation_University_TAU } = certifications;
 const { gitConnected } = URLs;
 /**
  * A unified fetch function to handle all data retrieval needs.
@@ -368,17 +368,17 @@ populateContainer('languages', languages, createLanguageSkillElement);
 Object.keys(skills).forEach(category => {
     populateContainer(category, skills[category], createSkillItem);
 });
-  // Example of populating Test Automation University certifications
-  populateContainer('TAU', certifications.Test_Automation_University_TAU, createCertificationItem);
+//   // Example of populating Test Automation University certifications
+//   populateContainer('TAU', certifications.Test_Automation_University_TAU, createCertificationItem);
 
-  // Similarly for LinkedIn Learning
-  populateContainer('LinkedInLearning', certifications.LinkedInLearning, createCertificationItem);
+//   // Similarly for LinkedIn Learning
+//   populateContainer('LinkedInLearning', certifications.LinkedInLearning, createCertificationItem);
 
-  // And for technical certifications
-  populateContainer('technical-certifications', certifications.technicalCertifications, createCertificationItem);
+//   // And for technical certifications
+//   populateContainer('technical-certifications', certifications.technicalCertifications, createCertificationItem);
 
-  // And for professional certifications
-  populateContainer('professional-certifications', certifications.educationalCertifications, createCertificationItem);
+//   // And for professional certifications
+//   populateContainer('professional-certifications', certifications.educationalCertifications, createCertificationItem);
 
 populateContainer('experience', experience, createExperienceItem);
 populateContainer('education', education, createEducationItem);
